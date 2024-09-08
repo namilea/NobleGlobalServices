@@ -1,60 +1,50 @@
-Noble Global Services | Executive Summary
+![Noble Global Services Logo](https://github.com/namilea/NobleGlobalServices/blob/a9e5d6f756e3251217b986b4d0a182e73eed2af5/Brand%20Logo.jpeg)
 
-1. Internal Assessment Overview
-Noble Global Services conducted a comprehensive internal security assessment to identify potential vulnerabilities and security weaknesses within the organization’s internal network. Using industry-leading tools such as Qualys, we evaluated key areas of the infrastructure, including system configurations, firewall settings, and network traffic monitoring. The findings provide insight into areas that require remediation to improve overall network security.
+# Noble Global Services | Executive Summary
 
-2. External Assessment Overview
-An external security assessment was performed to evaluate potential threats from external sources. Using Tenable, we analyzed network exposure, endpoint vulnerabilities, and perimeter defenses. This assessment focused on how external actors might exploit weaknesses, providing a realistic simulation of potential cyber threats from outside the network.
+## 1. Internal Assessment Overview
+Noble Global Services conducted a comprehensive internal security assessment to identify potential vulnerabilities within the organization’s internal network. Using industry-leading tools like Qualys, we evaluated key areas such as system configurations, firewall settings, and network traffic. The results highlight critical areas needing attention to maintain a secure infrastructure.
 
-3. Compliance Correlation
-The assessment covered the following key frameworks:
+## 2. External Assessment Overview
+Our external security assessment, conducted via Tenable, evaluated external threats targeting the organization. The assessment identified areas of potential exposure from outside actors and provided actionable insights to fortify network defenses.
 
-PCI DSS: Payment Card Industry Data Security Standard
-HIPAA: Health Insurance Portability and Accountability Act
-SOC 2: Service Organization Control
-ISO/IEC 27001: International standard for information security management
-NIST CSF: National Institute of Standards and Technology Cybersecurity Framework
-All frameworks were successfully passed, and the compliance correlation demonstrates that the organization’s internal and external security measures align with these critical regulatory requirements.
+## 3. Compliance Correlation
+The assessment covered the following compliance frameworks, all of which were successfully passed:
+- **PCI DSS**
+- **HIPAA**
+- **SOC 2**
+- **ISO/IEC 27001**
+- **NIST CSF**
 
-4. Security Posture Score
-The security posture score reflects the organization’s overall security health, based on internal and external assessments. The majority of vulnerabilities identified were of low severity or for information-gathering purposes. While these vulnerabilities are not immediately critical, they still provide valuable insights for maintaining long-term network health and security.
+## 4. Security Posture Score
+The security posture score reflects the overall security health, derived from both internal and external assessments. The score is based on the severity of identified vulnerabilities, with the majority being low severity or information-gathering in nature.
 
-Security Posture Pass Score
-The security posture assessment resulted in an overall pass score of 85:
-![Description of the image](https://github.com/namilea/NobleGlobalServices/blob/e8b8d48695ffff6782c860fb95e21218597e34a9/pass-85.jpg)
+![Security Posture Score](https://github.com/namilea/NobleGlobalServices/blob/a9e5d6f756e3251217b986b4d0a182e73eed2af5/pass-85.jpg)
 
-Key Vulnerabilities
-The vulnerabilities detected are not directly applicable to PCI DSS, HIPAA, SOC 2, ISO/IEC 27001, or NIST CSF compliance but are worth monitoring for potential use in network diagnostics. The five biggest vulnerability categories include:
+### Key Vulnerabilities Identified:
+- **Information Gathering**
+- **TCP/IP Configuration**
+- **Firewall Configurations**
 
-Information Gathering Vulnerabilities
-TCP/IP Configuration Issues
-Firewall Configurations
-Forensic Gaps
+## 5. Summary of Findings
+- **Internal Findings (via Qualys)**: Identified low-risk vulnerabilities related to information gathering and configurations.
+- **External Findings (via Tenable)**: External vulnerabilities were limited, with no high-severity risks.
 
-5. Summary of Findings
-Internal Assessment Findings (via Qualys)
-The internal assessment identified several low-severity vulnerabilities, primarily related to information gathering and TCP/IP configurations. These vulnerabilities do not present an immediate threat but require attention to prevent potential exploitation.
+## 6. Visual Aids
+![Security Posture Comparison](https://github.com/namilea/NobleGlobalServices/blob/a9e5d6f756e3251217b986b4d0a182e73eed2af5/Executive%20Summary%20Project-Pic4.jpg)
 
-External Assessment Findings (via Tenable)
-The external assessment focused on the organization’s perimeter defenses and found minimal medium or high-risk vulnerabilities. Most findings were information-gathering in nature, allowing us to proactively enhance defense mechanisms.
+_Comparison of vulnerabilities from internal and external assessments._
 
-Vulnerability Distribution by Severity
-The pie chart below shows the distribution of vulnerabilities identified during the assessments by severity, with 98.7% being low-severity (Severity 1) vulnerabilities and 1.3% being medium-severity (Severity 3) vulnerabilities:
-![Description of the image](https://github.com/namilea/NobleGlobalServices/blob/e8b8d48695ffff6782c860fb95e21218597e34a9/Executive%20Summary%20Project-Pic4%20-%20Copy.jpg)
+![Vulnerability Distribution by Severity](https://github.com/namilea/NobleGlobalServices/blob/a9e5d6f756e3251217b986b4d0a182e73eed2af5/Executive%20Summary%20Project-Pic4%20-%20Copy.jpg)
 
-Visual Aids – Comparison of Total Vulnerabilities
-The following bar chart compares the total number of vulnerabilities found in various categories such as internal assessments, external assessments, information gathering, TCP/IP, and forensics:
-![Description of the image](https://github.com/namilea/NobleGlobalServices/blob/e8b8d48695ffff6782c860fb95e21218597e34a9/Executive%20Summary%20Project-Pic4.jpg)
+_Distribution of vulnerabilities categorized by severity._
 
-6. Recommendations for Remediation
-To improve the overall security posture, the following actions are recommended:
+## 7. Recommendations for Remediation
+- **Information Gathering**: Improve monitoring and reduce exposure.
+- **TCP/IP Configurations**: Update configurations to align with best practices.
+- **Firewall Settings**: Strengthen firewall rules to minimize risk.
 
-Information Gathering Vulnerabilities: Regularly review and update system logs and monitoring to minimize information exposure.
-TCP/IP Issues: Implement best practices for TCP/IP configurations to prevent network inefficiencies and vulnerabilities.
-Firewall Configurations: Strengthen firewall settings to block unnecessary traffic and restrict access to critical network segments.
-Security Posture Improvement: Perform ongoing security posture assessments to stay ahead of emerging threats and maintain compliance with the above frameworks.
-Compliance Reviews: Schedule regular reviews to ensure continued adherence to PCI DSS, HIPAA, SOC 2, ISO/IEC 27001, and NIST CSF standards.
+## 8. References
+- **Internal Security Assessment**: See attached Qualys report.
+- **External Security Assessment**: See attached Tenable report.
 
-7. References
-Internal Security Assessment Report: Please refer to the attached Qualys report for detailed internal findings.
-External Security Assessment Report: Please refer to the attached Tenable report for detailed external findings.
